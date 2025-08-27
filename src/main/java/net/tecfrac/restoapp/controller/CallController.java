@@ -40,7 +40,7 @@ public class CallController {
             boolean isValid = true;
 
             if (twilioSignature != null) {
-                String url = "https://4a270059e278.ngrok-free.app/api/voice";
+                String url = "https://munchmatch.up.railway.app/api/voice";
 
                 RequestValidator validator = new RequestValidator(twilioConfig.getAuthToken());
                 isValid = validator.validate(url, params, twilioSignature);

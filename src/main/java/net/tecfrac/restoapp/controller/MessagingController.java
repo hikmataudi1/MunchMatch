@@ -47,7 +47,7 @@ public class MessagingController {
             boolean isValid = true;
 
             if (twilioSignature != null) {
-                String url = "https://4a270059e278.ngrok-free.app/api/conversation/pre-webhook";
+                String url = "https://munchmatch.up.railway.app/api/conversation/pre-webhook";
                 RequestValidator validator = new RequestValidator(twilioConfig.getAuthToken());
                 isValid = validator.validate(url, params, twilioSignature);
             } else {
@@ -110,7 +110,7 @@ public class MessagingController {
             // Twilio signature validation
             boolean isValid = true;
             if (twilioSignature != null) {
-                String url = "https://4a270059e278.ngrok-free.app/api/conversation/post-webhook";
+                String url = "https://munchmatch.up.railway.app/api/conversation/post-webhook";
                 RequestValidator validator = new RequestValidator(twilioConfig.getAuthToken());
                 isValid = validator.validate(url, params, twilioSignature);
             }
