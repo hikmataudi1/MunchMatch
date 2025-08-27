@@ -81,3 +81,37 @@
 ```bash
 git clone https://github.com/your-username/munch-match.git
 cd munch-match
+
+
+### 2. Configure Environment Variables
+
+Create a `.env` file in the project root (this file should be ignored by Git) and add your credentials:
+
+```env
+SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/restoapp
+SPRING_DATASOURCE_USERNAME=root
+SPRING_DATASOURCE_PASSWORD=yourpassword
+APP_JWT_SECRET=supersecretjwt
+APP_JWT_EXPIRATION_MILLISECONDS=604800000
+
+TWILIO_ACCOUNTSID=ACxxxxxxxxxxxxxxxx
+TWILIO_APIKEYSID=SKxxxxxxxxxxxxxxxx
+TWILIO_APIKEYSECRET=yourapikeysecret
+TWILIO_TWIMLAPPSID=APxxxxxxxxxxxxxxxx
+TWILIO_TOKENTTLSECONDS=86400
+TWILIO_SERVICESID=ISxxxxxxxxxxxxxxxx
+TWILIO_AUTHTOKEN=yourauthtoken
+TWILIO_CHATSERVICESID=ISxxxxxxxxxxxxxxxx
+
+SUPABASE_URL=https://yourproject.supabase.co
+SUPABASE_APIKEY=your-supabase-key
+SUPABASE_BUCKET=your-bucket-name
+
+
+### 3. Run the Application
+
+Start the Spring Boot backend:
+
+```bash
+./mvnw spring-boot:run
+
