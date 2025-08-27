@@ -1,6 +1,6 @@
 # Munch Match 🍔📊💬📞
 
-**Munch Match** is a modern **polling app** that allows users to create and participate in polls, chat in real-time, and make in-app voice calls using **Twilio**. Built with **Spring Boot**, **MySQL**, and **Supabase**, it delivers a seamless experience for voting, chatting, and calling.
+**Munch Match** is a modern **polling & chatting app** that allows users to create and participate in polls, chat in real-time, and make in-app voice calls using **Twilio**. Built with **Spring Boot**, **MySQL**,**Websockets** and **Supabase**, it delivers a seamless experience for voting, chatting, and calling.
 
 ---
 
@@ -116,5 +116,6 @@ Start the Spring Boot backend:
 ```bash
 ./mvnw spring-boot:run
 ```
+
 
 
