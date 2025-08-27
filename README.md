@@ -81,6 +81,7 @@
 ```bash
 git clone https://github.com/your-username/munch-match.git
 cd munch-match
+```
 
 
 ### 2. Configure Environment Variables
@@ -106,7 +107,7 @@ TWILIO_CHATSERVICESID=ISxxxxxxxxxxxxxxxx
 SUPABASE_URL=https://yourproject.supabase.co
 SUPABASE_APIKEY=your-supabase-key
 SUPABASE_BUCKET=your-bucket-name
-```env
+```
 
 ### 3. Run the Application
 
@@ -114,5 +115,6 @@ Start the Spring Boot backend:
 
 ```bash
 ./mvnw spring-boot:run
+```
 
 
