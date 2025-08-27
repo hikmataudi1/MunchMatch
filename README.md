@@ -52,7 +52,6 @@
 - **Storage:** Supabase for images & media  
 - **Authentication:** JWT tokens  
 - **Real-Time Communication:** Twilio (Chat & Voice), WebSocket  
-- **Frontend (Optional):** Android SDK or Web client  
 
 ---
 
@@ -116,6 +115,7 @@ Start the Spring Boot backend:
 ```bash
 ./mvnw spring-boot:run
 ```
+
 
 
 
